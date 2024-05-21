@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IEEE Launchpad</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: #000;
+      }
+      .container {
+        width: 50%;
+        margin: 0 auto;
+      }
+      .main {
+        padding-top: 50px;
+        max-width: 450px;
+        margin: 0 auto;
+        color: #fff;
+      }
+      .welcome {
+        font-size: 50px;
+        font-weight: bold;
+      }
+      .img_container {
+        width: 100%;
+      }
+      .img_container img {
+        width: 100%;
+        display: block;
+      }
+      .about {
+        margin-top: 50px;
+        color: #fff;
+      }
+      .launchpad {
+        color: #fc862b;
+        font-weight: bold;
+        font-size: 25px;
+        margin-bottom: 20px;
+      }
+      .ieee {
+        margin-bottom: 20px;
+        font-size: 18px;
+      }
+      .register {
+        margin: 0 auto;
+        display: inline-block;
+        padding: 10px 20px;
+        border: 2px solid #e66701;
+        border-radius: 10px;
+        background-color: #000;
+        font-weight: bold;
+        color: #fff;
+        cursor: pointer;
+        font-size: 17px;
+        text-decoration: none;
+      }
+      .discord {
+        margin-bottom: 20px;
+      }
+      .hop-in {
+        font-size: 20px;
+        font-weight: bold;
+        color: #fc862b;
+      }
+      .center {
+        text-align: center;
+        margin-bottom: 60px;
+      }
+
+      .timeline {
+        padding-bottom: 50px;
+      }
+      .timeline_item {
+        margin: 0 auto;
+        max-width: 400px;
+        padding: 30px;
+        border: 3px solid #fc862b;
+        border-image: linear-gradient(
+            to right,
+            rgb(255, 166, 0) 0%,
+            rgb(209, 141, 82) 100%
+          )
+          1 / 1 / 0 stretch;
+        border-top: 0;
+        position: relative;
+      }
+      .time_p {
+        margin: 0;
+        font-size: 1em;
+        line-height: 1.75em;
+        color: #eba834;
+      }
+      .timeline_item:nth-child(2n + 1) {
+        border-right: 0;
+      }
+      .timeline_item:nth-child(2n) {
+        border-left: 0;
+        text-align: right;
+      }
+      .timeline_item:last-child {
+        border-bottom: 0;
+      }
+      .number {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 35px;
+        height: 35px;
+        background-color: #f38a3a;
+        border-radius: 50%;
+        color: #fff;
+      }
+      .left {
+        position: absolute;
+        left: -19px;
+        top: 30%;
+      }
+      .right {
+        position: absolute;
+        right: -19px;
+        top: 30%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main">
+        <h1 class="welcome">Welcome to</h1>
+        <div class="img_container">
+          <img src="assets/launchpad.svg" alt="" />
+        </div>
+      </div>
+      <section class="about">
+        <h3 class="launchpad">IEEE LaunchPad</h3>
+        <p class="ieee">
+          IEEE LaunchPad Kerala 2024 is a premier job fair that brings together
+          talented individuals and innovative companies in the technical and
+          engineering fields. This collaboration between IEEE Kerala Section and
+          GTech MuLearn aims to create meaningful connections that drive
+          progress and innovation in Kerala's job market.
+        </p>
+        <div class="center">
+          <a href="https://launchpadkerala.com/" class="register"
+            >register Now</a
+          >
+        </div>
+
+        <h4 class="discord">
+          Also join the Discord Server and be part of the community
+        </h4>
+        <div class="center">
+          <a class="register" href="https://discord.gg/hZYjepkD">
+            Join Discord
+          </a>
+        </div>
+        <div class="center hop-in"><h4>Hop in</h4></div>
+      </section>
+      <div class="timeline">
+        <div class="timeline_item">
+          <div class="number left">1</div>
+          <p class="time_p">Participant Registration</p>
+        </div>
+        <div class="timeline_item">
+          <p class="time_p">Company Registration Close</p>
+          <div class="number right">2</div>
+        </div>
+        <div class="timeline_item">
+          <div class="number left">3</div>
+          <p class="time_p">Challenge Start</p>
+        </div>
+        <div class="timeline_item">
+          <div class="number right">4</div>
+          <p class="time_p">Online Exam</p>
+        </div>
+        <div class="timeline_item">
+          <p class="time_p">Consolidated Rank List</p>
+          <div class="number left">5</div>
+        </div>
+        <div class="timeline_item">
+          <div class="number right">6</div>
+          <p class="time_p">Option Selection</p>
+        </div>
+        <div class="timeline_item">
+          <p class="time_p">Confirmed Mail to Selected Participants</p>
+          <div class="number left">7</div>
+        </div>
+        <div class="timeline_item">
+          <div class="number right">8</div>
+          <p class="time_p">Interviews</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
